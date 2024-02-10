@@ -11,8 +11,7 @@ public class BinarySearch {
     }
 
     private static int binarySearchh(int[] num, int start , int end , int target){
-
-        if(start < end){
+        if(start <= end){
             int mid = start + (end - start)/2;
             if(target == num[mid]){
                 return mid;
